@@ -1,0 +1,140 @@
+/* line 620, /Users/jerry/Sites/bmsummit/less/mixins.less */
+.dropdown-arrow-inverse {
+  border-bottom-color: #34495e !important;
+  border-top-color: #34495e !important;
+}
+/* line 7, /Users/jerry/Sites/bmsummit/less/main.less */
+body > section,
+header,
+footer {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  /* Firefox */
+  position: relative;
+}
+@media (max-width: 767px) {
+  /* line 12, /Users/jerry/Sites/bmsummit/less/main.less */
+  body > section,
+  header,
+  footer {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+/* line 18, /Users/jerry/Sites/bmsummit/less/main.less */
+a {
+  font-weight: 600;
+  color: #2c3e50;
+}
+/* line 23, /Users/jerry/Sites/bmsummit/less/main.less */
+a:hover,
+a:focus {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+/* line 29, /Users/jerry/Sites/bmsummit/less/main.less */
+body {
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: 'Lato';
+  font-weight: 300;
+}
+@media (max-width: 767px) {
+  /* line 39, /Users/jerry/Sites/bmsummit/less/main.less */
+  body {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+/* line 45, /Users/jerry/Sites/bmsummit/less/main.less */
+body > section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+/* line 52, /Users/jerry/Sites/bmsummit/less/main.less */
+h1 {
+  font-size: 5em;
+  font-weight: 300;
+  line-height: 1.3em;
+  color: white;
+  padding-top: 50px;
+}
+@media (max-width: 480px) {
+  /* line 59, /Users/jerry/Sites/bmsummit/less/main.less */
+  h1 {
+    font-size: 3em;
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  /* line 64, /Users/jerry/Sites/bmsummit/less/main.less */
+  h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+}
+/* line 71, /Users/jerry/Sites/bmsummit/less/main.less */
+h2 {
+  font-weight: 300;
+  color: white;
+}
+@media (max-width: 480px) {
+  /* line 74, /Users/jerry/Sites/bmsummit/less/main.less */
+  h2 {
+    font-size: 3em;
+    text-align: center;
+  }
+}
+@media (max-width: 320px) {
+  /* line 79, /Users/jerry/Sites/bmsummit/less/main.less */
+  h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+}
+/* line 87, /Users/jerry/Sites/bmsummit/less/main.less */
+.btn {
+  font-size: 2em;
+  font-weight: 300;
+  padding: 20px 30px;
+  border-radius: 0px;
+}
+/* line 94, /Users/jerry/Sites/bmsummit/less/main.less */
+.speakers {
+  color: #bdc3c7;
+  background-color: #10202d;
+  padding: 50px 0px;
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+/* line 96, /Users/jerry/Sites/bmsummit/less/main.less */
+.speakers .columns {
+  margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  /* line 105, /Users/jerry/Sites/bmsummit/less/main.less */
+  .speakers {
+    text-align: center;
+  }
+}
+/* line 111, /Users/jerry/Sites/bmsummit/less/main.less */
+footer {
+  color: #eff3f6;
+  background-color: #031521;
+  padding: 50px 0px;
+  font-size: 1.2em;
+  line-height: 1.7em;
+}
+/* line 113, /Users/jerry/Sites/bmsummit/less/main.less */
+footer .columns {
+  margin-bottom: 40px;
+}
+@media (max-width: 768px) {
+  /* line 122, /Users/jerry/Sites/bmsummit/less/main.less */
+  footer {
+    text-align: center;
+  }
+}
